@@ -25,3 +25,12 @@ Final Phase: What is the next number in the sequence?
 ## Position
 After tha challenge ended, I was informed that my position was 87th. 
 Not bad for my first coding challange.
+
+## USAGE EXAMPLE:
+
+```python autopi.py -s /Volumes/SSD/pi-delivery -i 111 -m 5```
+
+Where: 
+    "-s" or "--storage" is the Folder to store 100GB of Pi" (THIS WILL BE UPDATED)
+    "-i" or "--index" is the start Index: 1 == first 100B digits
+    "-m","--mod" is how many terminals will be processing in parallel. So it will increment Index by mod terminals.
